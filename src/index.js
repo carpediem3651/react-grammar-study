@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CommentList from './Components and Props/CommentList';
+import TemperatureInput from './Shared State/TemperatureInput';
+import Calculator from './Shared State/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CommentList/>
+    <Calculator/>
   </React.StrictMode>
 );
 
